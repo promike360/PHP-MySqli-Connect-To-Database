@@ -35,6 +35,7 @@
         // Free result set
         mysqli_free_result($SQLi_result);
     }
-
+    
+    //Close the connection
     mysqli_close($SQLi_con);
 ?>
