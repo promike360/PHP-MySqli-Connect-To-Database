@@ -28,9 +28,10 @@
         while ( $SQLi_row = mysqli_fetch_row($SQLi_result) ) {
             
             //INSERT HERE YOUR CODE THAT WANTS TO USE DATA OUT OF THE DATABASE
-
-            print $SQLi_row[0];
-            print '<br>';
+            
+            //Example Code
+            print $SQLi_row[0].'<br>';
+            //End Example Code
         }
         // Free result set
         mysqli_free_result($SQLi_result);
